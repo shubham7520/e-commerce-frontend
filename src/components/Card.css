@@ -8,11 +8,10 @@
     text-decoration: none;
     color: black;
 }
-.home-card:hover{
+/* .home-card:hover{
     transition: ease-out 200ms;
-    transform: scale(1.02);
-    
-}
+    transform: scale(1.02); 
+} */
 
 .card{
     margin: 8% 0 2%;
