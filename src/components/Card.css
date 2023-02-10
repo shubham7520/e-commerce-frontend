@@ -8,9 +8,14 @@
     text-decoration: none;
     color: black;
 }
+.home-card:hover{
+    transition: ease-out 200ms;
+    transform: scale(1.02);
+    
+}
 
 .card{
-    margin: 3% 0 0;
+    margin: 8% 0 2%;
     background-color: white;
     width: 20vw;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0,.5);
