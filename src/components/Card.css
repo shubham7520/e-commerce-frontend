@@ -1,0 +1,44 @@
+.home{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.home-card{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    margin: 3% 0 0;
+    background-color: white;
+    width: 20vw;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0,.5);
+}
+.card-detail{
+    padding: 0 4%;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 0 4% 5%;
+}
+.item>button{
+    height: 5vh;
+    width: 50%;
+    border: none;
+    background-color: #3C79F5;
+    border-radius: .25rem;
+    cursor: pointer;
+    
+}
+.item>b{
+    cursor: default;
+}
+.card-btn{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: medium;
+}

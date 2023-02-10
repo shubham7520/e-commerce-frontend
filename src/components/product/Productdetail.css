@@ -1,0 +1,41 @@
+.details{
+    display: flex;
+    width: 90vw;
+}
+
+.product-icon{
+    flex: 1;
+    padding: 2%;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.add,.buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.buy{
+    background-color: RGB(251, 100, 27);
+}
+.add{
+    background-color: RGB(255, 159, 0);
+}
+
+.btn>button{
+    height: 6vh;
+    width: 48%;
+}
+
+.product-describe{
+    flex: 2;
+    padding: 5% 2%;
+}

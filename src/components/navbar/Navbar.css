@@ -1,0 +1,32 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(40, 117, 240, 0.852);
+    width: 90vw;
+    padding: 0 2%;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 5px rgba(136, 136, 136,.2);
+    margin-top: 1%;
+    color: white;
+     
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-home{
+    color: rgba(255, 255, 255, 0.778);
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
