@@ -1,16 +1,16 @@
-.auth-page{
+.auth-page {
     display: flex;
     justify-content: center;
-}
-.login-div{
+  }
+  .login-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 23vw;
-    background-color: rgba(128, 128, 128,.4);
+    background-color: rgba(128, 128, 128, 0.4);
     border-radius: 1.2rem;
-}
-.login-div>input{
+  }
+  .login-div > input {
     margin: 4%;
     height: 4.75vh;
     width: 85%;
@@ -19,9 +19,8 @@
     border-radius: 1rem;
     font-weight: 600;
     padding-left: 4%;
-    
-}
-.login-div>button{
+  }
+  .login-div > button {
     margin-top: 6%;
     height: 5.5vh;
     width: 89%;
@@ -33,26 +32,29 @@
     border-radius: 2rem;
     background-color: RGB(7, 130, 198);
     color: white;
-}
-.login-div>p{
+  }
+  .login-div > p {
     cursor: pointer;
     font-weight: 600;
-    
-}
-
-.lower-login{
+  }
+  
+  .lower-login {
     display: flex;
     align-items: center;
     width: 89%;
     justify-content: center;
     margin-bottom: 5%;
-}
-.psg{
+  }
+  .lower-login a {
+    text-decoration: none;
+  }
+  .psg {
     font-weight: 600;
     font-size: small;
-}
-.sign-up{
-    color: #362FD9;
+  }
+  .sign-up {
+    color: #362fd9;
     font-weight: 700;
     cursor: pointer;
-}
+  }
+  
