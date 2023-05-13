@@ -1,62 +1,58 @@
 .home {
-  width: 90vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.home a {
-  text-decoration: none;
-}
-.home-card {
-  text-decoration: none;
-  color: black;
-}
-/* .home-card:hover{
-    transition: ease-out 200ms;
-    transform: scale(1.02); 
-} */
-
-.card {
-  margin: 8% 0 2%;
-  background-color: white;
-  width: 15vw;
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
-}
-.card-detail {
-  padding: 0 4%;
-}
-.item {
-  display: flex;
-  align-items: center;
-  gap: 20%;
-  padding: 0 4% 5%;
-}
-.item > button {
-  height: 5vh;
-  width: 50%;
-  border: none;
-  background-color: #3c79f5;
-  border-radius: 0.25rem;
-  cursor: pointer;
-}
-.item > b {
-  cursor: default;
-}
-.card-btn {
-  text-decoration: none;
-  font-weight: 600;
-  color: white;
-  font-size: medium;
-}
-.card-icon {
-  display: flex;
-  justify-content: center;
-}
-.card {
-  transition: all 0.4s ease-in-out;
-}
-.card:hover {
-  transform: scale(1.05);
-  z-index: 5;
-  /* background-color: #f2f2f2; */
-}
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .home a {
+    text-decoration: none;
+  }
+  .home-card {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .card {
+    margin: 8% 0 2%;
+    background-color: white;
+    width: 15vw;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+  .card-detail {
+    padding: 0 4%;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 0 4% 5%;
+  }
+  .item > button {
+    height: 5vh;
+    width: 50%;
+    border: none;
+    background-color: #3c79f5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .item > b {
+    cursor: default;
+  }
+  .card-btn {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: medium;
+  }
+  .card-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    transition: all 0.4s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    z-index: 5;
+  }
+  

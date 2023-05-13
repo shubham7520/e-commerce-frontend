@@ -37,3 +37,15 @@
 a :hover {
   color: rgb(25, 82, 163);
 }
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-right a {
+    text-decoration: none;
+    color: white;
+  }
+  a :hover {
+    color: rgb(25, 82, 163);
+  }

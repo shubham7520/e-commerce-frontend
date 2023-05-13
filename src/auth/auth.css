@@ -1,59 +1,60 @@
 .auth-page {
-  display: flex;
-  justify-content: center;
-}
-.login-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 23vw;
-  background-color: rgba(128, 128, 128, 0.4);
-  border-radius: 1.2rem;
-}
-.login-div > input {
-  margin: 4%;
-  height: 4.75vh;
-  width: 85%;
-  border: none;
-  outline: none;
-  border-radius: 1rem;
-  font-weight: 600;
-  padding-left: 4%;
-}
-.login-div > button {
-  margin-top: 6%;
-  height: 5.5vh;
-  width: 89%;
-  cursor: pointer;
-  font-size: medium;
-  font-weight: 600;
-  border: none;
-  outline: none;
-  border-radius: 2rem;
-  background-color: RGB(7, 130, 198);
-  color: white;
-}
-.login-div > p {
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.lower-login {
-  display: flex;
-  align-items: center;
-  width: 89%;
-  justify-content: center;
-  margin-bottom: 5%;
-}
-.lower-login a {
-  text-decoration: none;
-}
-.psg {
-  font-weight: 600;
-  font-size: small;
-}
-.sign-up {
-  color: #362fd9;
-  font-weight: 700;
-  cursor: pointer;
-}
+    display: flex;
+    justify-content: center;
+  }
+  .login-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23vw;
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius: 1.2rem;
+  }
+  .login-div > input {
+    margin: 4%;
+    height: 4.75vh;
+    width: 85%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    padding-left: 4%;
+  }
+  .login-div > button {
+    margin-top: 6%;
+    height: 5.5vh;
+    width: 89%;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: RGB(7, 130, 198);
+    color: white;
+  }
+  .login-div > p {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .lower-login {
+    display: flex;
+    align-items: center;
+    width: 89%;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .lower-login a {
+    text-decoration: none;
+  }
+  .psg {
+    font-weight: 600;
+    font-size: small;
+  }
+  .sign-up {
+    color: #362fd9;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  

@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import React, { useNavigate, useState, useEffect } from 'react'
 import "./auth.css";
 import Alert from "../components/Alert/Alert";
+import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -39,7 +38,10 @@ const Signup = () => {
         setShowAlert({ error: false, message: "" });
       }, "1200");
     }
-  }, [showAlert.error]);
+    if (localStorage.getItem("token")) {
+      navigate("/");
+    }
+  }, [showAlert.error, navigate]);
   return (
     <div className="auth-page">
       <div className="login-div">
