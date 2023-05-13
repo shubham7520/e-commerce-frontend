@@ -1,20 +1,20 @@
-.cart-container{
-    display: flex;
-    width: 60vw;
-    gap: 3rem;
-    background-color: white;
-    border-bottom: .1px solid rgba(128, 128, 128, 0.495);
+.cart-container {
+  display: flex;
+  width: 60vw;
+  margin-top: 25px;
+  background-color: white;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.495);
 }
-.cart-detail{
-padding-top: 1%;
+.cart-detail {
+  padding-top: 1%;
 }
-.cart-detail>button{
-    border: none;
-    background-color: transparent;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 2vh;
+.cart-detail > button {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 2vh;
 }
-.cart-detail>button:hover{
-    color: rgba(97, 97, 247, 0.759);
+.cart-detail > button:hover {
+  color: rgba(97, 97, 247, 0.759);
 }

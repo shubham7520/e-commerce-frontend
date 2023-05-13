@@ -1,19 +1,20 @@
-import React from 'react'
-import Card from './Card';
+import React from "react";
+import { Link } from "react-router-dom";
+import Card from "./Card";
 import "./Card.css";
-import { Link } from 'react-router-dom';
 
-const Home = () => {
-    return (
-        <div className='home'>
-            <Link to='/product' className='home-card'><Card /></Link>
-            <Link to='/product' className='home-card'><Card /></Link>
-            <Link to='/product' className='home-card'><Card /></Link>
-            <Link to='/product' className='home-card'><Card /></Link>
-            <Link to='/product' className='home-card'><Card /></Link>
-
-        </div>
-    )
-}
+const Home = ({ products }) => {
+  return (
+    <div className="home">
+      {products.map((product) => {
+        return (
+          <Link to={`/product/${product._id}`} key={product._id}>
+            <Card products={product} />
+          </Link>
+        );
+      })}
+    </div>
+  );
+};
 
 export default Home;
